@@ -1,0 +1,239 @@
+.table-bordered > thead > tr > th {
+    text-align: center;
+}
+
+.table-bordered tr td {
+    text-align: center;
+}
+
+body,.bg-white{
+    background-color:#0A313F;
+}
+.body_frame {
+    background-color:#0A313F;
+/*    height: 100vh;*/
+    background-attachment: scroll;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.body_black_frame {
+/*    height: 100vh;*/
+  /*  background-color: #29221c;*/
+    filter: alpha(opacity:70);
+    KHTMLOpacity: 0.70;
+    MozOpacity: 0.70;
+    opacity: 0.70;
+
+}
+
+.form_containter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+/*    max-width: 1300px; */
+    padding: 0;
+}
+
+.containter_form_zise {
+    width: 100%;
+    /*max-width: 760px;*/
+    margin: 0 auto;
+}
+
+.containet_middle_size {
+    height: 100vh;
+    vertical-align: middle;
+    padding-top: 20vh;
+  /*   display: table-cell;
+   width: 1200px;*/
+}
+
+.form_header {
+    font-size: 42px;
+    line-height: 1.23;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.block_input {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    height: auto;
+    margin-bottom: 34px;
+}
+
+.press_input {
+    height: 56px;
+    outline: none;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    height: 40px;
+    padding: 0px 20px;
+    font-size: 16px;
+    line-height: 1.33;
+    width: 100%;
+    border: 0 none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.press_input.error {
+    border: 1px solid #ff0000;
+}
+
+label.error {
+    color: #ff0000;
+    font-weight: normal;
+}
+
+.input_fio {
+    width: 32.8888888888%;
+}
+
+.send_button {
+    margin-top: 15px;
+    color: #ffffff;
+    border: 0px solid;
+    background-color: #44C846;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    height: 56px;
+    padding: 0 20px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    height: 40px;
+    border: 0 none;
+    font-size: 16px;
+    padding-left: 60px;
+    padding-right: 60px;
+    -webkit-appearance: none;
+    font-weight: bold;
+    white-space: nowrap;
+    background-image: none;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input[disabled]{
+    background-color: aliceblue;
+}
+
+
+
+.wallet-b {
+    margin: 0 0 0 0;
+}
+.calc-credit {
+    color: #fff !important;
+/*    position: relative;*/
+    margin: none !important;
+    }
+ .inpt-text,.calc-credit .slide ul li,.calc-credit .finanse-res h4,.calc-credit .finanse-res h4 span{
+    color: #fff;
+ }
+
+ .calc-credit .finanse-res button, .getVal{
+    color: #ffffff;
+border: 0px solid;
+background-color: #FD9126;
+border-radius: 7px;
+-moz-border-radius: 7px;
+-webkit-border-radius: 7px;
+height: 56px;
+padding: 0 20px;
+width: 100%;
+font-family: 'Roboto', sans-serif;
+text-align: center;
+height: 40px;
+border: 0 none;
+font-size: 16px;
+padding-left: 60px;
+padding-right: 60px;
+-webkit-appearance: none;
+font-weight: bold;
+white-space: nowrap;
+background-image: none;
+cursor: pointer;
+margin: 0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+
+input[readonly]{
+    background-color: #e3f6fb;
+}
+ .finish{
+ 
+    background-color: #44C846 !important;
+}
+
+.calc-credit .finanse-res button:focus,.calc-credit .finanse-res button:hover ,.getVal:focus,.getVal:hover,.send_button_1:focus,.send_button_1:hover{
+background-color: #19b01b;
+}
+
+.calc-credit .finanse-res button:focus,.calc-credit .finanse-res button:hover ,.getVal:focus,.getVal:hover,.send_button_2:focus,.send_button_2:hover{
+background-color: #f2800e;
+}
+
+/*@media all and (min-width: 1200px){
+     .calc-credit .finanse-res, .calc-credit .invest-t {
+        position: absolute;
+    width: 270px;
+/*    left:5px;
+
+}  */
+} */
+@media all and (max-width: 600px) {
+    .input_fio {
+        width: 32.5%;
+    }
+}
+/*@media all and (max-width: 1200px) {
+    .calc-credit{
+        margin: 0 0 0 0;
+    }
+    .calc-credit .finanse-res, .calc-credit .invest-t {
+        position: relative;
+    width: 100%;
+    top: auto;
+    padding: 10px 0 27px;
+}  */
+/*.calc-credit .finanse-res button {
+    position: relative;
+        width: 100%;
+    }
+    */
+/*@media all and (min-width: 1200px) {
+        .calc-credit {
+    margin-top: 42px;
+}*/
+
+ 
+}
