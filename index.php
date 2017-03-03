@@ -182,7 +182,7 @@
                         error: function (data) {
                             $('#background-spinner').hide();
                             $('#spinner').hide();
-                            alert('Возникла ошибка' + data.Error);
+                            alert('Возникла ошибка' + data.error);
 
                         }
                     });
