@@ -176,13 +176,16 @@
                                 window.location.replace(data.userWebLink);
                             }
                             else {
-                                alert(data.Error);
+                                $('#background-spinner').hide();
+                                $('#spinner').hide();
+                                alert('Возникла ошибка: ' + data.error);
+
                             }
                         },
                         error: function (data) {
                             $('#background-spinner').hide();
                             $('#spinner').hide();
-                            alert('Возникла ошибка' + data.error);
+                            alert('Возникла ошибка' + data);
 
                         }
                     });
