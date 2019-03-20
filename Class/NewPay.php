@@ -8,8 +8,8 @@ class NewPay
     public $base_url;
 
     function __construct(
-        $merchantid = "337",
-        $secret = "F5OIhDKEN9",
+        $merchantid = "****",
+        $secret = "**********",
         $base_url = "https://secure.mandarinpay.com/"
     ) {
         $this->merchantid = $merchantid;
